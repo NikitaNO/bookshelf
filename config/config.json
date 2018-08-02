@@ -1,0 +1,33 @@
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "bookshelf",
+    "host": "127.0.0.1",
+    "port": 26257,
+    "dialect": "postgres",
+    "logging": false,
+    "dialectOptions": {
+      "supportBigNumbers": true
+    }
+  },
+
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "hirematch_test",
+    "host": "127.0.0.1",
+    "port": 26257,
+    "dialect": "postgres",
+    "migrationStorage": "none",
+    "autoMigrateOldSchema": true
+  },
+
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
